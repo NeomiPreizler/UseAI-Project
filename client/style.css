@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #inputs {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #additionalQuestions {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  #selectedOptions {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #generatedGreeting {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+  
+ 
+  
+  button.secondary {
+    background-color: #777;
+  }
+  
+  button.secondary:hover {
+    background-color: #555;
+  }
+  
+
+
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  h1,
+  label {
+    color: #333;
+  }
+  
+  button,
+  button.secondary {
+    background-color: #dc3545;
+  }
+  
+  button:hover,
+  button.secondary:hover {
+    background-color: #c82333;
+  }
+  
+  button.outline {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  button.outline:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+
+  
+  

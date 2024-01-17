@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Event Greetings AI</title>
+</head>
+
+<body>
+  <h1>Event Greetings AI</h1>
+  <div class="container">
+    <button id = "rel" onclick="rel()" style="display: none;"></button>
+
+    <div id="inputs">
+      <label for="event">Select an event:</label>
+      <select id="event" onchange="updateAdditionalQuestion()">
+        <option value="" disabled selected>Select an event:</option>
+        <option value="birthday">Birthday</option>
+        <option value="wedding">Wedding</option>
+        <option value="graduation">Graduation</option>
+      </select>
+
+      <span id="additionalQuestions"></span>
+
+      <!-- General questions -->
+      <label for="type">Type of blessing (song, short, long, letter):</label>
+      <input type="text" id="type" placeholder="type" />
+
+      <label for="atmosphere">Atmosphere (happy, entertaining, funny):</label>
+      <input type="text" id="atmosphere" placeholder="atmosphere" />
+
+    </div>
+    <div id="ageInput" style="display: none;">
+      <label for="age">age</label>
+      <input type="number" id="age" />
+    </div>  
+  <div id="generatedGreeting" style="display: none;"></div>
+</div>
+  <br />
+
+  <button id="submitButton" onclick="generateGreeting()">Write me a greeting</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
